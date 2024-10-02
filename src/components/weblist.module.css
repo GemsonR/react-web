@@ -1,0 +1,60 @@
+.listContainer {
+    width: 40%;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+  }
+  .title {
+    margin: 0;
+  }
+  .title h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  .cardContainer {
+    width: 100%;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  .imgContainer {
+    width: 95%;
+  }
+  .imgContainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  .imgContainer p {
+    margin: 0;
+    font-size: 18px;
+    color: rgb(98, 94, 94);
+    word-spacing: 0.15px;
+  }
+  .btnContainer {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+  }
+  .btnContainer button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #729762;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    transition: 0.15s;
+  }
+  .btnContainer button:hover {
+    background-color: #abc78a;
+  }
+  .btnContainer button:active {
+    opacity: 0.15;
+  }
+  
